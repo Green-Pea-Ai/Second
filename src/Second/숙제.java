@@ -1,7 +1,30 @@
+package Second;
+
 class Stundent {
-    String name;
-    int age;
-    String major;
+    // 당장 해석할 때 private, public을 없다 생각하고 해석하자!
+    private String name;
+    private int age;
+    private String major;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setAge(int a) {
+        age = a;
+    }
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public String getMajor() {
+        return major;
+    }
 }
 
 class Vehicle {
@@ -64,11 +87,11 @@ public class 숙제 {
     public static void main(String[] args) {
         System.out.println("숙제이다");
 
-        숙제 a = new 숙제();
-        a.adding();
+        /*Second.숙제 a = new Second.숙제();
+        a.adding();*/
 
 
-        /*Cust_Adding ca2 = new Cust_Adding(1, 20);
+        /*Second.Cust_Adding ca2 = new Second.Cust_Adding(1, 20);
         ca2.adding();*/
 
         /*int sum=0;

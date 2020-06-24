@@ -1,9 +1,11 @@
+package Second;
+
 import java.util.Scanner;
 
 public class Second {
     public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
-            System.out.println("Second Test");
+            System.out.println("Second.Second Test");
 
             // 설명문 설명문
 
